@@ -1,0 +1,40 @@
+.head {
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+
+.skills {
+    border-radius: 25px;
+    color: white;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000127;
+}
+
+.intro {
+    background-color: #2D8A8F;
+    border-radius: 25px;
+}
+
+.introBig {
+    background-color: #FFBA6C;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.projects {
+    background-color: #FFBA6C;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 7%;
+}
+
+.contact {
+    background-color: #FFBA6C;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 7%;
+}
