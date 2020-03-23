@@ -1,3 +1,34 @@
+h3{
+    color: #FFBA6C;
+}
+
+body {
+    background-color: #000127;
+}
+
+p{
+    color: white;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #FFBA6C;
+    background-image: linear-gradient(right, #000127, #FFBA6C,  #000127);
+    width: 50%;
+}
+.projects {
+    padding: 5%;
+}
+
+.contact {
+    padding: 5%;
+}
+
+.orange{
+    color: #FFBA6C;
+}
+
 .head {
     margin-top: 5%;
     margin-bottom: 30%;
@@ -6,35 +37,11 @@
 .skills {
     border-radius: 25px;
     color: white;
+    padding: 5%;
 }
 
 .bg{
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #000127;
-}
-
-.intro {
-    background-color: #2D8A8F;
-    border-radius: 25px;
-}
-
-.introBig {
-    background-color: #FFBA6C;
-    padding: 25px;
-    border-radius: 25px;
-}
-
-.projects {
-    background-color: #FFBA6C;
-    padding: 25px;
-    border-radius: 25px;
-    margin-top: 7%;
-}
-
-.contact {
-    background-color: #FFBA6C;
-    padding: 25px;
-    border-radius: 25px;
-    margin-top: 7%;
 }
