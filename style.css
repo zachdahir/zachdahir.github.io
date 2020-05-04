@@ -45,3 +45,20 @@ hr{
     background-size: 100%;
     background-color: #000127;
 }
+
+.gallery {
+    padding: 25px;
+    width:100%;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
