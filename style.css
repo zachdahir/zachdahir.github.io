@@ -17,6 +17,16 @@ hr{
     background-image: linear-gradient(right, #000127, #FFBA6C,  #000127);
     width: 50%;
 }
+
+video{
+    display: block;
+    margin: auto;
+}
+
+figcaption{
+    color: white;
+}
+
 .projects {
     padding: 5%;
 }
