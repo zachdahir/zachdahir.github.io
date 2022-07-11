@@ -1,0 +1,65 @@
+h3{
+    color: #FFBA6C;
+}
+
+body {
+    background-color: #000127;
+}
+
+p{
+    color: white;
+}
+
+hr{
+    border: 2px solid #FFBA6C;
+}
+
+.projects {
+    padding: 5%;
+}
+
+.contact {
+    padding: 5%;
+}
+
+.orange{
+    color: #FFBA6C;
+}
+
+.head {
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+
+.skills {
+    border-radius: 25px;
+    color: white;
+    padding: 5%;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000127;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.carousel-indicators [data-bs-target]{
+      background-color: #FFBA6C;
+}
+
+.button {
+    color: #FFBA6C;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}

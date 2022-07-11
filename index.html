@@ -1,0 +1,228 @@
+  <!--
+; Title: Personal Portfolio
+; Author: Zach Dahir
+; Date: 7-6-22
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Zach Dahir">
+        
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+        
+    <title>Zach Dahir</title>
+</head>
+
+<body class="bg"  style="background-image: url('images/bg.jpg');">
+    <div id="top"></div>
+    <nav class="navbar navbar-expand-sm bg-dark justify-content-center fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#top"> Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about"> About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects"> Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact"> Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="head">
+        <h1 class="text-center display-1 pt-5">Zachary Dahir</h1>
+        <h2 class="text-center display-4 font-weight-bold">Full Stack-Developer</h2>
+        <a href="https://github.com/zachdahir?tab=repositories">
+            <img  class="center" src="images/github.png" alt="github logo" style="width:42px;height:42px;">
+        </a>
+    </div>
+
+    <div class="container"  id="about">
+    <div class="container">
+        <h2 class="text-center orange display-4">Hello</h2>
+        <p  class="text-center"> 
+            My name is Zachary Dahir and I am a Web Developer. I always had a knack for technology, 
+            I built my first PC in high school and have built several since. However, it wasn't until 
+            college that I found my interest in programming. I initially went to college for Psychology 
+            and had taken a programming course as an elective, as soon as my first program worked, I was hooked. 
+            I switched majors and went on to get my bachelors in Web Development. 
+        </p>
+    </div>
+
+<hr>
+
+<h2 class="text-center orange display-4 pt-5">Technology I Have Experience With</h2>
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="container p-3 bg-dark skills">
+                        <h3 class="text-center orange">Front-End</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="container p-3 bg-dark skills">
+                        <h3 class="text-center orange">Development Methods</h3>
+                        <ul>
+                            <li>Waterfall</li>
+                            <li>Agile</li>
+                            <li>Scrum</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="container p-3 bg-dark skills">
+                        <h3 class="text-center orange">Back-End</h3>
+                        <ul>
+                            <li>C#</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>MongoDB</li>
+                            <li>NoSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        
+        <div class='container pb-5' id='projects'>
+            <h2 class="text-center orange display-4">Projects</h2>
+
+            <!-- Carousel Slides-->
+            <div id="demo" class="carousel slide" style="height: 30%;" data-ride="carousel">
+
+                <!-- Carousel Slide Control-->
+                <div class="carousel-indicators mb-0">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  </div>
+    
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <!-- Carousel row start-->
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class=" card p-3 bg-dark skills">
+                                    <img src="images/bucket.png" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="orange">Nodebucket</h4>
+                                        <p>Task Managment App using the MEAN Stack</p>
+                                        <a href="https://dahir-nodebucket.herokuapp.com/#/session/signin"  class="btn btn-secondary center" target="_blank">Check it Out</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-sm-4">
+                                <div class=" card p-3 bg-dark skills">
+                                <img src="images/repair.jpg" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="orange">Bobs Computer Repair Shop</h4>
+                                        <p>Repair Shop cite using  MEAN Stack</p>
+                                        <a href="http://bobscrs.herokuapp.com/#/session/sign-in"  class="btn btn-secondary center" target="_blank">Check it Out</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-sm-4">
+                                <div class=" card p-3 bg-dark skills">
+                                <img src="images/books.png" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="orange">In-N-Out Books</h4>
+                                        <p>Book Store App using Angular</p>
+                                        <a href="https://zachdahir.github.io/in-n-out-books/"  class="btn btn-secondary center" target="_blank">Check it Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel row end-->
+    
+                    <!-- Carousel row start-->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class=" card p-3 bg-dark skills">
+                                <img src="images/gpa.png" class="card-img-top"  alt="cog">
+                                    <div class="card-body">                                        
+                                        <h4 class="orange">GPA Claculator App</h4>
+                                        <p>Angular</p>
+                                        <a href="https://zachdahir.github.io/GPA-Calculator/" class="btn btn-secondary center" target="_blank">Check it Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+    
+                            <div class="col-sm-4">
+                                <div class=" card p-3 bg-dark skills">
+                                <img src="images/comp.png" class="card-img-top" alt="cog">
+                                    <div class="card-body">
+                                        <h4 class="orange">Composer App</h4>
+                                        <p>Angular</p>
+                                        <a href="https://zachdahir.github.io/composer-app/"  class="btn btn-secondary center" target="_blank">Check it Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-sm-4">
+                                <div class=" card p-3 bg-dark skills">
+                                    <img src="images/trivia.jpg" class="card-img-top" alt="cog">
+                                        <div class="card-body">
+                                        <h4 class="orange">JavaScript Trivia</h4>
+                                        <p>JavaScript quiz using HTML and CSS</p>
+                                        <a href="https://zachdahir.github.io/simple.github.io/"  class="btn btn-secondary center" target="_blank">Check it Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container contact mb-5 pb-1">
+            <h2 class="text-center display-4 orange" id="contact">Contact Me</h2>
+            
+            <form action="mailto:zachdahir@hotmail.com" method="post" enctype="text/plain" class="bg-dark skills">
+                <div class="form-group">
+                    <label for="name"><h3>Name:</h3></label>
+                    <input type="text" id="name" placeholder="Enter Name..." class="form-control">
+                </div>
+        
+                <br>
+        
+                <div class="form-group">
+                    <label for="email"><h3>Email:</h3></label>
+                    <input type="email" id="name" placeholder="Enter Email..." class="form-control">
+                </div>
+        
+                <br>
+        
+                <div class="form-group">
+                    <label for="comment"><h3>Message:</h3></label>
+                    <textarea id="comment" placeholder="Enter Message..." rows="5" class="form-control"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-secondary center">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
